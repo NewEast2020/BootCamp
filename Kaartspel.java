@@ -1,4 +1,4 @@
-public class kaartspel{
+public class Kaartspel{
 	public static void main(String[] args) {
 		String soort= "";
 		String kleur= "";
