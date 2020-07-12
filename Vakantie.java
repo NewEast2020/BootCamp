@@ -32,6 +32,8 @@ public class Vakantie {
         char charWordLast = wordLast.charAt(wordLast.length()-1);
         char charWordInput = wordInput.charAt(0);
 
+        if (wordInput.equals("Quit")) return;
+
         if (charWordLast!=charWordInput){
             inputIsFout(arrl, indexInput);
         } else{
