@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
+// Galgje
 public class Galgje {
     public static void main(String[] args) {
         Random rand = new Random();
